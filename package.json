@@ -1,14 +1,35 @@
 {
   "name": "vite-plugin-port-checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Vite plugin that warns if the dev server is running on a browser-restricted port.",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "port",
+    "restricted-port",
+    "browser-blocked-port"
+  ],
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vite": ">=3.0.0"
   },
   "devDependencies": {
     "prettier": "^3.8.3",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "vite": "^8.0.11"
   },
-  "private": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onixbyte/vite-plugin-port-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onixbyte/vite-plugin-port-checker/issues"
+  },
+  "homepage": "https://github.com/onixbyte/vite-plugin-port-checker#readme"
 }
