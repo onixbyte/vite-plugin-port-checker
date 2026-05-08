@@ -7,11 +7,11 @@ Reference: [Fetch spec — port blocking](https://fetch.spec.whatwg.org/#port-bl
 ## Install
 
 ```bash
-npm install vite-plugin-port-checker -D
+npm install @onixbyte/vite-plugin-port-checker -D
 # or
-pnpm add vite-plugin-port-checker -D
+pnpm add @onixbyte/vite-plugin-port-checker -D
 # or
-yarn add vite-plugin-port-checker -D
+yarn add @onixbyte/vite-plugin-port-checker -D
 ```
 
 ## Usage
@@ -28,6 +28,6 @@ export default defineConfig({
 
 When the dev server starts on a restricted port, you'll see a yellow warning in the console suggesting you change `server.port`.
 
-## License
+## Licence
 
 MIT
