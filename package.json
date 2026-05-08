@@ -1,5 +1,5 @@
 {
-  "name": "@onixbyte/vite-plugin-port-checker",
+  "name": "vite-plugin-port-checker",
   "version": "1.0.1",
   "description": "A Vite plugin that warns if the dev server is running on a browser-restricted port.",
   "license": "MIT",
