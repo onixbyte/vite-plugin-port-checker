@@ -7,11 +7,11 @@ Reference: [Fetch spec — port blocking](https://fetch.spec.whatwg.org/#port-bl
 ## Install
 
 ```bash
-npm install @onixbyte/vite-plugin-port-checker -D
+npm install vite-plugin-port-checker -D
 # or
-pnpm add @onixbyte/vite-plugin-port-checker -D
+pnpm add vite-plugin-port-checker -D
 # or
-yarn add @onixbyte/vite-plugin-port-checker -D
+yarn add vite-plugin-port-checker -D
 ```
 
 ## Usage
