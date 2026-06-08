@@ -4,8 +4,8 @@
   "description": "A Vite plugin that warns if the dev server is running on a browser-restricted port.",
   "author": {
     "email": "opensource@onixbyte.com",
-    "name": "OnixByte Open Source",
-    "url": "https://github.com/onixbyte"
+    "name": "OnixByte Open Source Team",
+    "url": "https://onixbyte.com"
   },
   "license": "MIT",
   "keywords": [
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onixbyte/vite-plugin-port-checker.git"
+    "url": "git+https://git.onixbyte.com/onixbyte/vite-plugin-port-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/onixbyte/vite-plugin-port-checker/issues"
+    "url": "https://git.onixbyte.com/onixbyte/vite-plugin-port-checker/issues"
   },
-  "homepage": "https://github.com/onixbyte/vite-plugin-port-checker#readme"
+  "homepage": "https://git.onixbyte.com/onixbyte/vite-plugin-port-checker#readme"
 }
